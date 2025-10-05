@@ -237,7 +237,7 @@ const ContactCard: React.FC<ContactCardProps> = ({ defaultSlug }) => {
                 {/* Profile initials circle */}
                 <div className="w-16 h-16 sm:w-20 sm:h-20 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-2 border-4 border-indigo-400/30 overflow-hidden shadow-lg">
                   <img 
-                    src="https://lafysstpyiejevhrlmzc.supabase.co/storage/v1/object/public/imagenes/Equipo/Jesus.png"
+                    src={employee.photo}
                     alt={employee.name}
                     className="w-full h-full object-cover"
                   />

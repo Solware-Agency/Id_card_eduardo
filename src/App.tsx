@@ -6,11 +6,11 @@ function App() {
   return (
     <Router>
       <Routes>
-        {/* Ruta principal que muestra directamente el perfil de Jesus Freites */}
-        <Route path="/" element={<ContactCard defaultSlug="jesus-freites" />} />
+        {/* Ruta principal que muestra directamente el perfil de Eduardo Padilla */}
+        <Route path="/" element={<ContactCard defaultSlug="eduardo-padilla" />} />
         {/* Mantener las rutas existentes para compatibilidad */}
         <Route path="/id/:slug" element={<ContactCard />} />
-        <Route path="*" element={<Navigate to="/id/jesus-freites" replace />} />
+        <Route path="*" element={<Navigate to="/id/eduardo-padilla" replace />} />
       </Routes>
     </Router>
   );

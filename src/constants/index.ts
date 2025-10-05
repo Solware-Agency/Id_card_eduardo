@@ -24,7 +24,7 @@ export const VISUAL_EFFECTS = {
 
 // Image URLs
 export const IMAGES = {
-  EMPLOYEE_PHOTO: 'https://lafysstpyiejevhrlmzc.supabase.co/storage/v1/object/public/imagenes/Equipo/Jesus.png',
+  EMPLOYEE_PHOTO: 'https://lafysstpyiejevhrlmzc.supabase.co/storage/v1/object/public/imagenes/Equipo/eduardo.jpeg',
   SOLWARE_LOGO: 'https://lafysstpyiejevhrlmzc.supabase.co/storage/v1/object/public/imagenes/Logos/Svg/Logo_Blanco_Solware.svg',
 } as const;
 
